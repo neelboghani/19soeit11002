@@ -11,6 +11,7 @@ router.get('/cars',async(req,res)=>{
     res.send(imovie)
 })
 
+
 //to add the cars
 router.post("/cars",async(req,res)=>{
     const imovie = new Movie({
